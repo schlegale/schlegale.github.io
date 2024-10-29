@@ -1,0 +1,9 @@
+.highlighted {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #af90e9;
+  border-radius: 91% 9% 93% 7% / 25% 92% 8% 75%;
+  padding: 1rem 2rem;
+  display: inline-block;
+}
