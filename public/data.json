@@ -1,0 +1,44 @@
+{
+  "languages": [
+    {
+      "name": "C#",
+      "image": "/csharp.webp"
+    },
+    {
+      "name": "C++",
+      "image": "/c++.webp"
+    },
+    {
+      "name": "CSS",
+      "image": "/css.webp"
+    },
+    {
+      "name": "GRAPHQL",
+      "image": "/graphql.webp"
+    },
+    {
+      "name": "JS",
+      "image": "/js.webp"
+    },
+    {
+      "name": "KOTLIN",
+      "image": "/kotlin.webp"
+    },
+    {
+      "name": "PHP",
+      "image": "/php.webp"
+    },
+    {
+      "name": "PYTHON",
+      "image": "/python.webp"
+    },
+    {
+      "name": "SQL",
+      "image": "/sql.webp"
+    },
+    {
+      "name": "TS",
+      "image": "/ts.webp"
+    }
+  ]
+}
