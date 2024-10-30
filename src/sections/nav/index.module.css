@@ -1,0 +1,28 @@
+.nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+  padding: 2rem;
+  font-size: 1.25rem;
+}
+
+.LeftSection {
+  font-family: "limelight";
+}
+
+.navLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.navLinks > * {
+  padding: 0.5rem;
+}
+
+.navLinks > *:last-child {
+  border: 1px solid white;
+  font-family: "limelight";
+}
