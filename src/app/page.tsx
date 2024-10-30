@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Hero from "@/sections/hero";
+import Slider from "@/sections/slider";
+import Contact from "@/sections/contact";
 
 export default function Home() {
   return (
@@ -47,6 +49,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <Slider />
       </main>
       <footer className={styles.footer}>
         <a
@@ -92,6 +95,7 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+      <Contact />
     </div>
   );
 }
