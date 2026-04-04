@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import confetti from "canvas-confetti";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Work from "./components/Work";
 
 function App() {
   const [isRevealed, setIsRevealed] = useState(false);
@@ -145,6 +146,7 @@ function App() {
           </div>
         </main>
 
+        <Work />
         <Footer />
 
         {isRevealed && (
