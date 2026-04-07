@@ -2,37 +2,37 @@ const data = [
   {
     name: "WELBO",
     url: "https://www.welbo.eu/en",
-    image: "/work/welbo.png",
+    image: "/work/welbo.webp",
     desc: "Social robotics platform. Contributed to real-time dashboards and the Android application."
   },
   {
     name: "Kenjo",
     url: "https://www.kenjo.io/es",
-    image: "/work/kenjo.png",
+    image: "/work/kenjo.webp",
     desc: "All-in-one HR Software designed to manage and empower frontline workforces."
   },
   {
     name: "bonprix",
     url: "https://www.bonprix.de/",
-    image: "/work/bonprix.png",
+    image: "/work/bonprix.webp",
     desc: "High-traffic international fashion e-commerce platform processing thousands of requests."
   },
   {
     name: "Global Fund for Coral Reefs",
     url: "https://globalfundcoralreefs.org/",
-    image: "/work/coral.png",
+    image: "/work/coral.webp",
     desc: "Platform for the UN-backed initiative focused on coral reef conservation."
   },
   {
     name: "SEI",
     url: "https://www.sei.com/",
-    image: "/work/sei.png",
+    image: "/work/sei.webp",
     desc: "Global provider of wealth management and investment processing solutions."
   },
   {
     name: "Ruby's Rainbow",
     url: "https://rubysrainbow.org/",
-    image: "/work/ruby.png",
+    image: "/work/ruby.webp",
     desc: "Non-profit platform supporting individuals with Down syndrome."
   }
 ];
