@@ -3,6 +3,7 @@ import confetti from "canvas-confetti";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Work from "./components/Work";
+import Monorepo from "./components/Monorepo";
 
 function App() {
   const [isRevealed, setIsRevealed] = useState(false);
@@ -17,6 +18,24 @@ function App() {
   };
 
   const daysDifference = calculateDays();
+
+  useEffect(() => {
+    const handleHashScroll = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const id = hash.replace("#", "");
+        const element = document.getElementById(id);
+        if (element) {
+          setTimeout(() => {
+            element.scrollIntoView({ behavior: "smooth" });
+          }, 300);
+        }
+      }
+    };
+    handleHashScroll();
+    window.addEventListener("hashchange", handleHashScroll);
+    return () => window.removeEventListener("hashchange", handleHashScroll);
+  }, []);
 
   useEffect(() => {
     const handleWheel = (e: WheelEvent) => {
@@ -146,6 +165,7 @@ function App() {
           </div>
         </main>
 
+        <Monorepo />
         <Work />
         <Footer />
 
