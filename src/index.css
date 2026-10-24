@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+  --color-accent: #6c4dff;
+  --color-accent-dark: #5638e6;
+  --color-ink: #14141a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

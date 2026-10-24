@@ -1,3 +1,5 @@
+import { profile } from "../data/profile";
+
 const data = [
   {
     name: "WELBO",
@@ -42,7 +44,7 @@ export default function Portfolio() {
     <section id="portfolio" className="relative z-30 bg-[#F8F9FA] w-full py-20 border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-[#1A1A1A] tracking-tight mb-4">Platforms I've Contributed To</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-ink tracking-tight mb-4">Platforms I've Contributed To</h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">From high-traffic e-commerce to social robotics and global tech initiatives.</p>
         </div>
 
@@ -57,14 +59,14 @@ export default function Portfolio() {
 
               <div className="p-6 flex flex-col flex-grow">
                 <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-xl font-bold text-[#1A1A1A]">{item.name}</h3>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-400 group-hover:text-[#615EFC] transition-colors">
+                  <h3 className="text-xl font-bold text-ink">{item.name}</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-400 group-hover:text-accent transition-colors">
                     <line x1="7" y1="17" x2="17" y2="7"></line>
                     <polyline points="7 7 17 7 17 17"></polyline>
                   </svg>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed flex-grow">{item.desc}</p>
-                <div className="mt-6 text-xs font-semibold text-[#615EFC] uppercase tracking-wider">Visit Website &rarr;</div>
+                <div className="mt-6 text-xs font-semibold text-accent uppercase tracking-wider">Visit Website &rarr;</div>
               </div>
             </a>
           ))}
@@ -72,7 +74,7 @@ export default function Portfolio() {
 
         <div className="text-center mt-16">
           <p className="text-gray-400 text-sm mb-4">Want the standard technical timeline?</p>
-          <a href="/Alejo_Schlegel_Resume.pdf" download="Alejo_Schlegel_Resume.pdf" className="text-[#615EFC] font-semibold hover:underline">
+          <a href={profile.resume} download={profile.resumeFileName} className="text-accent font-semibold hover:underline">
             Download my Resume instead.
           </a>
         </div>
