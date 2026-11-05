@@ -18,7 +18,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-2xl text-gray-600 max-w-3xl font-medium leading-relaxed">
-          4+ years shipping production software with React, TypeScript, Node.js and AWS — from customer-facing e-commerce to robotics dashboards. Off the clock, I make video games.
+          5+ years shipping production software with React, TypeScript, Node.js and AWS — from customer-facing e-commerce to robotics dashboards. Off the clock, I make video games.
         </p>
 
         <div className="mt-8 flex flex-wrap justify-center gap-2">
